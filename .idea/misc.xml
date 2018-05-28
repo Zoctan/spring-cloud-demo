@@ -8,6 +8,10 @@
         <option value="$PROJECT_DIR$/client/pom.xml" />
         <option value="$PROJECT_DIR$/consumer/pom.xml" />
         <option value="$PROJECT_DIR$/server/pom.xml" />
+        <option value="$PROJECT_DIR$/consumer_rest_ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/consumer_feign/pom.xml" />
+        <option value="$PROJECT_DIR$/consumer_ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/zuul/pom.xml" />
       </list>
     </option>
   </component>
