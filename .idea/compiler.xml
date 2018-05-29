@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="client" />
         <module name="cloud-demo" />
+        <module name="config_server" />
         <module name="consumer_feign" />
         <module name="consumer_ribbon" />
         <module name="server" />

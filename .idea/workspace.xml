@@ -2,45 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b8bf48b-ef59-4945-940d-4b0b140e61ce" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/consumer_feign/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer_feign/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer_feign/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer_feign/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer_feign/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer_feign/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer_feign/src/main/java/com/dilang/zoctan/consumer/ConsumerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer_feign/src/main/java/com/dilang/zoctan/consumer/controller/ConsumerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer_feign/src/main/java/com/dilang/zoctan/consumer/service/ComputeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer_feign/src/main/java/com/dilang/zoctan/consumer/service/ComputeServiceFallback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer_feign/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/consumer_feign/src/test/java/com/dilang/zoctan/consumer/ConsumerApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul/src/main/java/com/dilang/zoctan/server/ZuulApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul/src/main/java/com/dilang/zoctan/server/filter/MyFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul/src/test/java/com/dilang/zoctan/server/ServerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config_server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config_server/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config_server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config_server/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config_server/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config_server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config_server/src/main/java/com/dilang/zoctan/server/ConfigApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config_server/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config_server/src/test/java/com/dilang/zoctan/server/ServerApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/java/com/dilang/zoctan/client/Controller/ComputeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/java/com/dilang/zoctan/client/controller/ComputeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/dilang/zoctan/consumer/ConsumerApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/src/main/java/com/dilang/zoctan/consumer/Controller/ConsumerController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/consumer/src/test/java/com/dilang/zoctan/consumer/ConsumerApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zuul/src/main/java/com/dilang/zoctan/server/filter/MyFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/zuul/src/main/java/com/dilang/zoctan/server/filter/MyFilter.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/../../spring-cloud-demo/client/target/" />
@@ -53,6 +28,7 @@
     <ignored path="$PROJECT_DIR$/consumer_feign/target/" />
     <ignored path="$PROJECT_DIR$/consumer_ribbon/target/" />
     <ignored path="$PROJECT_DIR$/zuul/target/" />
+    <ignored path="$PROJECT_DIR$/config_server/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,21 +37,33 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MyFilter.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/zuul/src/main/java/com/dilang/zoctan/server/filter/MyFilter.java">
+    <leaf>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config_server/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="19" />
+            <state relative-caret-position="352">
+              <caret line="31" column="56" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConfigApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config_server/src/main/java/com/dilang/zoctan/server/ConfigApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" selection-start-line="6" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#482#483#0" expanded="true" />
-                <element signature="e#510#511#0" expanded="true" />
-                <element signature="e#732#733#0" expanded="true" />
-                <element signature="e#756#757#0" expanded="true" />
-                <element signature="e#807#808#0" expanded="true" />
-                <element signature="e#834#835#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config_server/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="49" selection-end-line="15" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -122,6 +110,9 @@
         <option value="$PROJECT_DIR$/consumer_ribbon/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/zuul/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/zuul/src/main/java/com/dilang/zoctan/server/filter/MyFilter.java" />
+        <option value="$PROJECT_DIR$/config_server/pom.xml" />
+        <option value="$PROJECT_DIR$/config_server/src/main/java/com/dilang/zoctan/server/ZuulApplication.java" />
+        <option value="$PROJECT_DIR$/config_server/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -154,39 +145,45 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="config_server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="config_server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="config_server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="config_server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="config_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="config_server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud-demo" type="b2602c69:ProjectViewProjectNode" />
@@ -194,92 +191,6 @@
             </path>
             <path>
               <item name="cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="consumer_feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="consumer_feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="consumer_feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="consumer_feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="consumer_ribbon" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="consumer_ribbon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="consumer_ribbon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="consumer_ribbon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="consumer_ribbon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="zuul" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -292,30 +203,6 @@
               <item name="zuul" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="zuul" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="filter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud-demo" type="b2602c69:ProjectViewProjectNode" />
@@ -328,8 +215,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -339,7 +227,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/zuul" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/config_server" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -352,6 +240,7 @@
       <recent name="com.dilang.zoctan.consumer.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/zuul" />
       <recent name="$PROJECT_DIR$/consumer_feign" />
     </key>
@@ -443,8 +332,8 @@
       <item itemvalue="Spring Boot.ClientApplication" />
       <item itemvalue="Spring Boot.ConsumerRibbonApplication" />
       <item itemvalue="Spring Boot.ServerApplication" />
-      <item itemvalue="Spring Boot.ConsumerFeignApplication" />
       <item itemvalue="Spring Boot.ZuulApplication" />
+      <item itemvalue="Spring Boot.ConsumerFeignApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -464,15 +353,18 @@
       <updated>1527469853382</updated>
       <workItem from="1527469858780" duration="27000" />
       <workItem from="1527469976075" duration="1950000" />
-      <workItem from="1527471987994" duration="11702000" />
+      <workItem from="1527471987994" duration="12257000" />
+      <workItem from="1527553254531" duration="6000" />
+      <workItem from="1527557194196" duration="3080000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13679000" />
+    <option name="totallyTimeSpent" value="17320000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="0" width="1442" height="873" extended-state="7" />
+    <frame x="-1" y="0" width="1442" height="873" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -486,16 +378,15 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="8" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="8" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44726303" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.44726303" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24964234" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32977304" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
       <window_info anchor="right" id="Bean Validation" order="4" />
       <window_info id="Web" order="3" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -503,6 +394,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="8" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -520,7 +412,8 @@
         <state relative-caret-position="110">
           <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#509#510#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -588,13 +481,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/consumer_rest_ribbon/src/main/java/com/dilang/zoctan/consumer/ConsumerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer_rest_ribbon/src/main/java/com/dilang/zoctan/consumer/ConsumerApplication.java" />
     <entry file="file://$PROJECT_DIR$/client/src/main/java/com/dilang/zoctan/client/controller/ComputeController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
@@ -616,34 +503,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/consumer_rest_ribbon/src/main/java/com/dilang/zoctan/consumer/controller/ConsumerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="10" selection-start-line="10" selection-end-line="20" selection-end-column="1" />
-          <folding>
-            <element signature="e#582#583#0" expanded="true" />
-            <element signature="e#618#619#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer_rest_ribbon/src/main/java/com/dilang/zoctan/consumer/service/ComputeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" selection-start-line="7" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer_rest_ribbon/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer_rest_ribbon/src/main/java/com/dilang/zoctan/consumer/controller/ConsumerController.java" />
+    <entry file="file://$PROJECT_DIR$/consumer_rest_ribbon/src/main/java/com/dilang/zoctan/consumer/service/ComputeService.java" />
+    <entry file="file://$PROJECT_DIR$/consumer_rest_ribbon/pom.xml" />
     <entry file="file://$PROJECT_DIR$/consumer_ribbon/src/main/java/com/dilang/zoctan/consumer/service/ComputeService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -669,13 +531,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer_feign/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="48" column="22" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -746,17 +601,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/zuul/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zuul/src/main/java/com/dilang/zoctan/server/filter/MyFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="19" />
+        <state relative-caret-position="176">
+          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#482#483#0" expanded="true" />
@@ -766,6 +614,47 @@
             <element signature="e#807#808#0" expanded="true" />
             <element signature="e#834#835#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config_server/src/main/java/com/dilang/zoctan/server/filter/MyFilter.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer_feign/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1056">
+          <caret line="48" column="22" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config_server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="31" column="56" selection-start-line="31" selection-start-column="56" selection-end-line="31" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config_server/src/main/java/com/dilang/zoctan/server/ConfigApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" selection-start-line="6" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zuul/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config_server/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="49" selection-end-line="15" selection-end-column="54" />
         </state>
       </provider>
     </entry>
