@@ -1,4 +1,4 @@
-package com.dilang.zoctan.server;
+package com.dilang.zoctan.client;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

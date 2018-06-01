@@ -1,4 +1,4 @@
-package com.dilang.zoctan.server.filter;
+package com.dilang.zoctan.client.filter;
 
 import com.netflix.zuul.ZuulFilter;
 import com.netflix.zuul.context.RequestContext;
