@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b8bf48b-ef59-4945-940d-4b0b140e61ce" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config_server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config_server/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config_server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config_server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repo/client-dev.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/repo/client-prod.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/repo/client-test.propertie" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/repo/client.properties" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/../../spring-cloud-demo/client/target/" />
@@ -30,7 +32,7 @@
       <file leaf-file-name="ConfigApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config_server/src/main/java/com/dilang/zoctan/server/ConfigApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
+            <state relative-caret-position="176">
               <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -39,20 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config_server/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config_server/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+              <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -100,8 +93,8 @@
         <option value="$PROJECT_DIR$/zuul/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/zuul/src/main/java/com/dilang/zoctan/server/filter/MyFilter.java" />
         <option value="$PROJECT_DIR$/config_server/src/main/java/com/dilang/zoctan/server/ZuulApplication.java" />
-        <option value="$PROJECT_DIR$/config_server/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/config_server/pom.xml" />
+        <option value="$PROJECT_DIR$/config_server/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -335,12 +328,12 @@
       <workItem from="1527659861807" duration="25000" />
       <workItem from="1527662377721" duration="1844000" />
       <workItem from="1527736831173" duration="1029000" />
-      <workItem from="1527813999800" duration="2783000" />
+      <workItem from="1527813999800" duration="4570000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27369000" />
+    <option name="totallyTimeSpent" value="29156000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1442" height="873" extended-state="6" />
@@ -367,7 +360,7 @@
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44726303" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.39252338" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2746781" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2746781" />
       <window_info anchor="right" id="Bean Validation" order="4" />
       <window_info id="Web" order="3" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -650,16 +643,16 @@
     <entry file="file://$PROJECT_DIR$/config_server/.mvn/wrapper/maven-wrapper.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/config_server/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/config_server/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        <state relative-caret-position="213">
+          <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config_server/src/main/java/com/dilang/zoctan/server/ConfigApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
+        <state relative-caret-position="176">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -667,10 +660,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config_server/pom.xml">
+    <entry file="file://$PROJECT_DIR$/config_server/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+        <state relative-caret-position="330">
+          <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
         </state>
       </provider>
     </entry>
