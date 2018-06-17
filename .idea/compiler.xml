@@ -6,14 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="client" />
         <module name="cloud-demo" />
-        <module name="config_client" />
-        <module name="config_server" />
-        <module name="consumer_feign" />
-        <module name="consumer_ribbon" />
-        <module name="server" />
-        <module name="zuul" />
+        <module name="computeService" />
+        <module name="configClient" />
+        <module name="configServer" />
+        <module name="eurekaServer" />
+        <module name="feignConsumer" />
+        <module name="ribbonConsumer" />
+        <module name="zuulService" />
       </profile>
     </annotationProcessing>
   </component>

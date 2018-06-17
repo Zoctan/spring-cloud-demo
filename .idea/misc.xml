@@ -14,6 +14,13 @@
         <option value="$PROJECT_DIR$/zuul/pom.xml" />
         <option value="$PROJECT_DIR$/config_server/pom.xml" />
         <option value="$PROJECT_DIR$/config_client/pom.xml" />
+        <option value="$PROJECT_DIR$/computeService/pom.xml" />
+        <option value="$PROJECT_DIR$/configClient/pom.xml" />
+        <option value="$PROJECT_DIR$/configServer/pom.xml" />
+        <option value="$PROJECT_DIR$/eurekaServer/pom.xml" />
+        <option value="$PROJECT_DIR$/feignConsumer/pom.xml" />
+        <option value="$PROJECT_DIR$/ribbonConsumer/pom.xml" />
+        <option value="$PROJECT_DIR$/zuulService/pom.xml" />
       </list>
     </option>
   </component>
