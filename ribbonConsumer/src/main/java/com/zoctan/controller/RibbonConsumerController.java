@@ -21,4 +21,12 @@ public class RibbonConsumerController {
     public String add(@RequestParam Integer a, @RequestParam Integer b) {
         return computeService.add(a, b);
     }
+
+    /**
+     * 加法接口2，测试服务追踪
+     */
+    @GetMapping("/add2")
+    public String add2(@RequestParam Integer a, @RequestParam Integer b) {
+        return "computeService: " + computeService.add(a, b);
+    }
 }

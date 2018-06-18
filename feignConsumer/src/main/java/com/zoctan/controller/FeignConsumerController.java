@@ -1,6 +1,7 @@
 package com.zoctan.controller;
 
 import com.zoctan.service.FeignComputeService;
+import com.zoctan.service.RibbonConsumerService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -17,8 +18,16 @@ public class FeignConsumerController {
     @Resource
     private FeignComputeService computeService;
 
+    @Resource
+    private RibbonConsumerService ribbonConsumerService;
+
     @GetMapping("/add")
     public String add(@RequestParam Integer a, @RequestParam Integer b) {
         return computeService.add(a, b);
+    }
+
+    @GetMapping("/add2")
+    public String add2(@RequestParam Integer a, @RequestParam Integer b) {
+        return "ribbonConsumer => " + ribbonConsumerService.add2(a, b);
     }
 }
