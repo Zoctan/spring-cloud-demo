@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b8bf48b-ef59-4945-940d-4b0b140e61ce" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/configServer/src/main/resources/bootstrap.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configClient/src/main/java/com/zoctan/controller/TestEncryptController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/computeService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/computeService/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/configClient-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config/configClient-dev.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configClient/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/configClient/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configServer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/configServer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configServer/src/main/java/com/zoctan/ConfigServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/configServer/src/main/java/com/zoctan/ConfigServerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configServer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configServer/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eurekaServer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eurekaServer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feignConsumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/feignConsumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ribbonConsumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ribbonConsumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuulService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/zuulService/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/../../spring-cloud-demo/client/target/" />
@@ -57,7 +47,7 @@
       <file leaf-file-name="ConfigServerApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/configServer/src/main/java/com/zoctan/ConfigServerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
+            <state relative-caret-position="352">
               <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
               <folding>
                 <element signature="e#595#596#0" expanded="true" />
@@ -67,20 +57,54 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/configServer/src/main/resources/application.properties">
+      <file leaf-file-name="bootstrap.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/configClient/src/main/resources/bootstrap.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="110">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap.properties" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ConfigClientApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/configClient/src/main/java/com/zoctan/ConfigClientApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/configClient/src/main/java/com/zoctan/controller/TestController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestEncryptController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/configClient/src/main/java/com/zoctan/controller/TestEncryptController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+              <folding>
+                <element signature="e#432#433#0" expanded="true" />
+                <element signature="e#489#490#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/configServer/src/main/resources/bootstrap.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+            <state relative-caret-position="88">
+              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -105,7 +129,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/client/src/main/java/com/zoctan/ClientApplication.java" />
         <option value="$PROJECT_DIR$/config_client/src/main/resources/bootstrap.properties" />
         <option value="$PROJECT_DIR$/config_server/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/consumer_feign/src/main/resources/application.properties" />
@@ -156,6 +179,7 @@
         <option value="$PROJECT_DIR$/configClient/pom.xml" />
         <option value="$PROJECT_DIR$/configServer/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/configServer/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/configClient/src/main/java/com/zoctan/controller/TestEncryptController.java" />
       </list>
     </option>
   </component>
@@ -208,6 +232,30 @@
               <item name="configClient" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="configClient" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="configClient" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zoctan" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="configClient" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zoctan" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud-demo" type="b2602c69:ProjectViewProjectNode" />
@@ -301,6 +349,7 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zoctan.controller" />
       <recent name="com.dilang.zoctan.server.controller" />
       <recent name="com.dilang.zoctan.consumer.service" />
     </key>
@@ -323,7 +372,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConfigServerApplication">
+  <component name="RunManager" selected="Spring Boot.ConfigClientApplication">
     <configuration name="ConfigClientApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dilang.zoctan.client.ConfigClientApplication" />
       <module name="configClient" />
@@ -500,12 +549,12 @@
       <workItem from="1529244240811" duration="56000" />
       <workItem from="1529287320333" duration="38000" />
       <workItem from="1529287405413" duration="6586000" />
-      <workItem from="1529295664227" duration="3316000" />
+      <workItem from="1529295664227" duration="3839000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64362000" />
+    <option name="totallyTimeSpent" value="64885000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-28" width="1368" height="772" extended-state="6" />
@@ -529,7 +578,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="8" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4541213" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4541213" />
       <window_info anchor="bottom" id="Spring" order="8" weight="0.32977304" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49928468" weight="0.3919129" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.497191" visible="true" weight="0.26586103" />
@@ -562,7 +611,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/consumer_feign/src/main/resources/application.properties" />
     <entry file="file://$PROJECT_DIR$/consumer_ribbon/pom.xml" />
     <entry file="file://$PROJECT_DIR$/consumer_ribbon/src/main/java/com/zoctan/service/RibbonComputeService.java" />
     <entry file="file://$PROJECT_DIR$/consumer_ribbon/src/main/java/com/zoctan/RibbonConsumerApplication.java" />
@@ -682,22 +730,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/configClient/src/main/java/com/zoctan/controller/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="58" selection-start-line="2" selection-start-column="58" selection-end-line="2" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/configClient/mvnw.cmd">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configClient/src/main/java/com/zoctan/ConfigClientApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/computeService/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -755,13 +789,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/configClient/src/main/resources/bootstrap.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/configClient/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="131">
@@ -776,6 +803,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/configServer/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/configServer/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -785,7 +819,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/configServer/src/main/java/com/zoctan/ConfigServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
+        <state relative-caret-position="352">
           <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
           <folding>
             <element signature="e#595#596#0" expanded="true" />
@@ -794,10 +828,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/configServer/src/main/resources/bootstrap.properties">
+    <entry file="file://$PROJECT_DIR$/configClient/src/main/resources/bootstrap.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configClient/src/main/java/com/zoctan/ConfigClientApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configClient/src/main/java/com/zoctan/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configClient/src/main/java/com/zoctan/controller/TestEncryptController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <folding>
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
