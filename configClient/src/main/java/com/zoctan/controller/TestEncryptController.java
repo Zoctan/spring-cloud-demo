@@ -11,12 +11,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class TestEncryptController {
 
-    // 配置文件中加密的数据库密码
-    @Value("${spring.datasource.password}")
-    private String dbPassword;
+    // 配置文件中加密的密码
+    @Value("${password}")
+    private String password;
 
-    @GetMapping("/dbPassword")
-    public String dbPassword() {
-        return String.format("Database Password: %s", dbPassword);
+    @GetMapping("/password")
+    public String getPassword() {
+        return String.format("Password: %s", password);
     }
 }
