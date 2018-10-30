@@ -16,14 +16,14 @@ import javax.annotation.Resource;
 public class FeignConsumerController {
 
     @Resource
-    private FeignComputeService computeService;
+    private FeignComputeService feignComputeService;
 
     @Resource
     private RibbonConsumerService ribbonConsumerService;
 
     @GetMapping("/add")
     public String add(@RequestParam Integer a, @RequestParam Integer b) {
-        return computeService.add(a, b);
+        return feignComputeService.add(a, b);
     }
 
     @GetMapping("/add2")
